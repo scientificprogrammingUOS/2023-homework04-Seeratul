@@ -16,7 +16,7 @@ def combination(a1,a2,axis = 0):
 
 if __name__ == "__main__":
     # use this for your own testing!
-    a1 = np.ones((2,2))
-    a2 = np.ones((2,2))
-    print(combination(a1,a2))
+    #a1 = np.ones((2,2))
+    #a2 = np.ones((2,2))
+    #print(combination(a1,a2))
     pass

@@ -5,6 +5,8 @@ import numpy as np
 def combination(a1,a2,axis = 0):
     # delete the NotImplementedError when you write your function.
     try: 
+         a1 = np.squeeze(a1)
+         a2 = np.squeeze(a2)
          return np.concatenate(a1,a2,axis)
 
     except:

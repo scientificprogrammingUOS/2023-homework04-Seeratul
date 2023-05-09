@@ -1,5 +1,5 @@
-from distutils.command.clean import clean
-from string import printable
+#from distutils.command.clean import clean
+#from string import printable
 import numpy as np
 
 # implement the function gaussian_analysis

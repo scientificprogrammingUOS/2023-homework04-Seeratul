@@ -2,7 +2,7 @@ import numpy as np
 
 # implement your function to combine two numpy arrays 
 
-def combine(a1,a2,axis = 0):
+def combination(a1,a2,axis = 0):
     # delete the NotImplementedError when you write your function.
     try: 
          return np.concatenate(a1,a2,axis)
